@@ -1,3 +1,4 @@
+const path = require ('path')
 const express = require('express');
 const routes = require('./routes/api');
 const sequelize = require('./config/connection');
